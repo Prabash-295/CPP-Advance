@@ -38,7 +38,7 @@ union Chgs{
   double db;
 };
 
-// typedef int temp;
+// typedef int temp_t;
 
 // using 
 
@@ -47,6 +47,5 @@ using temp = int;
 int main(){
   temp a = 21;
   cout<<a;
-  cout<<product(1, 7);
   return 0;
 }

@@ -56,8 +56,15 @@ unsigned char swapNibbles(unsigned char x){
   return result;
 }
 
+int  a = 40;
 int main(){
   unsigned char c = 172;
-  cout<<(int)swapNibbles(c);
+  int a = 10;
+  {
+    int a = 20;
+    cout<<"Inside brasis: "<<a<<endl;
+  }
+  cout<<"Inside main: "<<a<<endl;
+  cout<<"Global scope: "<<::a;
   return 0;
 }

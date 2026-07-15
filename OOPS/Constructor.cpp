@@ -12,7 +12,7 @@ class Student{
   Student(string n){
     name = n;
     cout<<name<<endl;
-  }
+  } 
   Student(string n, int a){
     name = n;
     age = a;

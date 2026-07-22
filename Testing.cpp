@@ -23,7 +23,5 @@ int main(){
 //   cout<<*p;
 // }
 
-int x = ~(~(-6));
-cout<<x;
-return 0;
+
 }

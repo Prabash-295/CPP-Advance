@@ -69,16 +69,16 @@ using namespace std;
 //   }
 // };
 
-
+// implement first  occur, last occur and peak element
 
 
 int main(){
-  Solution s1;
+  // Solution s1;
   vector<int>v={ 2, 3, 6, 7 ,8 ,8 ,11, 11, 11, 12};
-  int n = v.size();
-  int target = 6;
-  int res = s1.upperboundd(v, n, target);
-  cout<< res;
+  // int n = v.size();
+  // int target = 6;
+  // int res = s1.upperboundd(v, n, target);
+  // cout<< res;
   auto it = upper_bound(v.begin(),v.end(),6);
   cout<<it-v.begin();
   return 0;
